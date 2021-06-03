@@ -4,12 +4,43 @@ body {
 }
 
 .buy-now-button {
-    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    background-color: black;
     color: #fff;
     border: none;
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
+}
+
+p {
+    color: #707070;
+}
+
+a {
+    text-decoration: none;
+}
+
+.yellow-text {
+    color: #FF9D00;
+}
+
+/* Carousel CSS */
+.carousel-section p {
+    text-align: justify;
+}
+
+.carousel-item {
+    background-image: url("images/bg-1.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: contain;
+}
+
+/* Smartphone CSS */
+.smartphone .card {
+    border: none;
+    border-radius: 20px;
 }
 
 /* Footer CSS */
