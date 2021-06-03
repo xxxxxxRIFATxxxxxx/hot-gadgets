@@ -3,6 +3,14 @@ body {
     font-family: 'Poppins', sans-serif;;
 }
 
+p {
+    color: #707070;
+}
+
+a {
+    text-decoration: none;
+}
+
 .buy-now-button {
     background-color: black;
     color: #fff;
@@ -12,16 +20,13 @@ body {
     cursor: pointer;
 }
 
-p {
-    color: #707070;
-}
-
-a {
-    text-decoration: none;
-}
-
 .yellow-text {
     color: #FF9D00;
+}
+
+.yellow-border {
+    background-image: linear-gradient(to right, #FFD019, #FF9C35); 
+    width: 120px;
 }
 
 /* Carousel CSS */
@@ -37,10 +42,39 @@ a {
     background-size: contain;
 }
 
+/* Dotted Background CSS */
+.dotted-background {
+    width: 150px;
+    position: absolute;
+    top: 400px;
+    right: 91%;
+}
+
 /* Smartphone CSS */
 .smartphone .card {
     border: none;
     border-radius: 20px;
+}
+
+/* Laptop CSS */
+.laptop .card {
+    border: none;
+    border-radius: 20px;
+}
+
+/* Categories CSS */
+.categories .card {
+    border: none;
+}
+
+.bag {
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.perfume, .shoe {
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 /* Footer CSS */
